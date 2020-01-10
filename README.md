@@ -10,12 +10,19 @@
 
 ### Part 4: Download and install Java 8 SE Development Kit
 
-1. You might already have some components of Java installed on your computer. Unless you have a very good reason for keeping other versions of Java around, I recommend that you uninstall all existing versions of Java from your computer (instructions: [Mac](https://www.java.com/en/download/help/mac_uninstall_java.xml), [Windows](https://www.java.com/en/download/help/uninstall_java.xml)). 
+1. You might already have some components of Java installed on your computer. Unless you have a very good reason for keeping other versions of Java around, I recommend that you uninstall all existing versions of both the JRE and the JDK (a.k.a., the Java SE Development Kit) from your computer.
+
+* Mac OS:
+    First [Uninstall JRE](https://www.java.com/en/download/help/mac_uninstall_java.xml). Then
+    [Uninstall JDK](https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html#A1096903).
+
+* Windows:
+  [Uninstall both JRE and JDK using Windows uninstaller](https://www.java.com/en/download/help/uninstall_java.xml)
 
 
-2. Although there are several newer versions of Java, **we'll be using Java 8**. Download the Java SE Development Kit 8u231 (the last three numbers might be different, that's okay!) for your operating system from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Don't forget to click the radio button indicating that you agree to the terms of the license. If you do not know which kind of Windows you have, see below under Windows 10 users.
+2. As of mid-2019, Oracle requires you to have an Oracle account to download Java. If you don't already have an Oracle account, [you can create one here](https://profile.oracle.com/myprofile/account/create-account.jspx). You can just make up a phone number or address, but you will need your real email address to confirm the account, and you'll need to save your password. Go to your email to find the account confirmation email, follow the link, then proceed to step 3.
 
-3. Oracle now requires you to have an Oracle account. When you click the Download button in step 2, you'll be prompted to enter your Oracle account credentials or to create an Oracle account. Create your account if necessary, log in, and your download will proceed.
+3. Although there are several newer versions of Java, **we'll be using Java 8**. Select the radio button for the Java SE Development Kit 8u231 for your operating system from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). If you do not know which kind of Windows you have, see below under Windows 10 users. Don't forget to click the radio button indicating that you agree to the terms of the license, then click Download, log into Oracle, and your download will start.
 
 4. After you download the .dmg (Mac) or .exe (Windows), double-click it to start the installation. Click as needed to complete the installation. Do not try to change the location Java gets installed to. Just let the installer put Java where it likes.
 
