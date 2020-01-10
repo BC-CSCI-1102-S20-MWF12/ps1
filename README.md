@@ -180,7 +180,7 @@ Replace the words ``Hello, World!`` with your favorite greeting.
 
 8. Click ``Commit to master``.
 
-9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. This is the part people always forget, so don't forget!
+9. Click the ``Push`` on the right in the bottom menubar, between ``master`` and ``files``. **This is the part people always forget, so don't forget!**
 
 10. Go to GitHub and confirm that your respository has been updated. You should see the changes reflected in your problem set repository and see ``last updated 1 minute ago`` (or thereabouts). This is what we will grade. Congratulations! 
 
