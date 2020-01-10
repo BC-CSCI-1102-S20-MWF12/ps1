@@ -27,7 +27,14 @@
 4. After you download the .dmg (Mac) or .exe (Windows), double-click it to start the installation. Click as needed to complete the installation. Do not try to change the location Java gets installed to. Just let the installer put Java where it likes.
 
 ### Part 5: Configure and validate Java installation
-#### Windows 10 users (If you are using Windows 7, proceed at your own risk.)
+
+[Windows](#windows-users)
+
+[Mac](#mac-users)
+
+#### <a name="windows-users"></a> Windows 10 Users
+
+*If you are using Windows 7, proceed at your own risk.*
 
 1. I am assuming you have deleted *all* copies of Java from your computer by using the [special Java uninstall tool for Windows here](https://www.java.com/en/download/help/uninstall_java.xml). If not, you can give these instructions a try, but if they don't work, go back to Part 4 above and follow those directions.
 
@@ -76,7 +83,7 @@ javac 1.8.0_231
 
 If you get an error message (e.g., "command java not found") or if the number after `javac` or `java version` is not `8` (e.g., `java 1.7`, then something is not right. Go back to the top and start again, this time remembering to follow the instructions carefully.
 
-#### Max OSX users ####
+#### <a name="mac-users"></a> Mac Users
 1. Launch a Terminal. You can do this by finding the Terminal app in your Applications folder, or by going up to the magnifying glass in the upper right corner of your screen and then searching for Terminal.
 
 2. At the prompt in Terminal, type ``java -version`` and you should see something like this:
