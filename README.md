@@ -28,9 +28,9 @@
 
 ### Part 5: Configure and validate Java installation
 
-[Windows](#windows-users)
+[Click here for Windows](#windows-users)
 
-[Mac](#mac-users)
+[Click here for Mac](#mac-users)
 
 #### <a name="windows-users"></a> Windows 10 Users
 
@@ -68,8 +68,8 @@
 ```java
 
 java version "1.8.0_231"
-Java(TM) SE Runtime Environment (build 1.8.0_231-b12)
-Java HotSpot(TM) 64-Bit Server VM (build 25.231-b12, mixed mode)
+Java(TM) SE Runtime Environment (build 1.8.0_231-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.231-b11, mixed mode)
 
 ```
 
@@ -91,8 +91,8 @@ If you get an error message (e.g., "command java not found") or if the number af
 ```java
 
 java version "1.8.0_231"
-Java(TM) SE Runtime Environment (build 1.8.0_231-b12)
-Java HotSpot(TM) 64-Bit Server VM (build 25.231-b12, mixed mode)
+Java(TM) SE Runtime Environment (build 1.8.0_231-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.231-b11, mixed mode)
 
 ```
 
@@ -105,7 +105,7 @@ javac 1.8.0_231
 
 ```
 
-4. If you get an error message (e.g., "command java not found") or if the number after `javac` or `java version` is not `8` (e.g., `java 1.7`, then something is not right. Go back to the top and start again, this time remembering to follow the instructions carefully.
+4. If you get an error message (e.g., "command java not found") or if the number after `javac` or `java version` is not `1.8`  then something is not right. Go back to the top and start again, this time remembering to follow the instructions carefully.
 
 
 ### Part 6: Install and configure Atom
