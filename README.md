@@ -1,30 +1,33 @@
 # Problem Set 1 (continued)
 
-## Due January 17 @ 11:59pm
+## Due Friday, January 17 @ 11:59pm
 
 ## If you run into problems, see the problems.md file in this repository.
+
+**Note: It's really important that you follow the instructions exactly. You'll be happy you did!**
+
 ---
 
-### Part 4: Download and install Java 8 SDK
+### Part 4: Download and install Java 8 SE Development Kit
 
-1. You might already have some components of Java installed on your computer. Unless you have a very good reason for keeping other versions of Java around, we recommend that you uninstall all existing versions of Java from your computer (instructions: [Mac](https://www.java.com/en/download/help/mac_uninstall_java.xml), [Windows](https://www.java.com/en/download/help/uninstall_java.xml)). 
+1. You might already have some components of Java installed on your computer. Unless you have a very good reason for keeping other versions of Java around, I recommend that you uninstall all existing versions of Java from your computer (instructions: [Mac](https://www.java.com/en/download/help/mac_uninstall_java.xml), [Windows](https://www.java.com/en/download/help/uninstall_java.xml)). 
 
 
-2. Although there are several newer versions of Java, we'll be using Java 8. Download the Java SE Development Kit 8u191 (the last three numbers might be different, that's okay!) for your operating system from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Don't forget to click the radio button indicating that you agree to the terms of the license. If you do not know which version of Windows you have, see below under Windows 10 users.
+2. Although there are several newer versions of Java, **we'll be using Java 8**. Download the Java SE Development Kit 8u231 (the last three numbers might be different, that's okay!) for your operating system from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). Don't forget to click the radio button indicating that you agree to the terms of the license. If you do not know which version of Windows you have, see below under Windows 10 users.
 
 3. After you download the .dmg (Mac) or .exe (Windows), double-click it to start the installation. Click as needed to complete the installation. Do not try to change the location Java gets installed to. Just let the installer put Java where it likes.
 
 ### Part 5: Configure and validate Java installation
-#### Special instructions for Windows 10 users (If you are using Windows 7, proceed at your own risk.)
+#### Windows 10 users (If you are using Windows 7, proceed at your own risk.)
 
 1. I am assuming you have deleted *all* copies of Java from your computer by using the [special Java uninstall tool for Windows here](https://www.java.com/en/download/help/uninstall_java.xml). If not, you can give these instructions a try, but if they don't work come back and do this.
 
 
-2. If you didn't know which version of Java to install in Part 4, determine whether you have 64 bit (x64)or 32 bit (x86) Windows by following [the directions for Windows 10 here](https://www.wikihow.com/Check-if-Your-Computer-Is-64-Bit). Then [download and install the SDK (make sure it’s the SDK!) from here again](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) making sure to select x64 or x86 depending on your system. Do not try to change the location Java gets installed to. Just let the installer put Java where it likes.
+2. If you didn't know which version of Java 8 to install in Part 4, determine whether you have 64 bit (x64)or 32 bit (x86) Windows by following [the directions for Windows 10 here](https://www.wikihow.com/Check-if-Your-Computer-Is-64-Bit). Then [download and install the SDK (make sure it’s the SDK!) from here again](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) making sure to select x64 or x86 depending on your system. Do not try to change the location Java gets installed to. Just let the installer put Java where it likes.
 
-3. Quit any cmd terminals you have open, and quit Atom. 
+3. Quit any ``cmd`` terminals you have open, and quit Atom, if you have it open.
 
-4. Just repeating this here: quit any cmd terminals you have open and quit Atom.
+4. Just repeating this here: quit any ``cmd`` terminals you have open and quit Atom if you have it open.
 
 5. Make sure that you have the path to the Java sdk bin directory *exactly* right as follows: (a) navigate in your file system (using Explorer, or whatever it’s called in Windows) to the location where the Java `bin` folder was installed (e.g., `C:\Program Files\Java\jdk1.8.0_201\bin`). **MAKE SURE IT'S JDK and not JRE!!!** (b) Right-click on the `\bin` fodler and choose `Properties`. (c) The path is shown next to the Location header, which you must now highlight and copy.
 
@@ -62,7 +65,7 @@ javac 1.8.0_191
 
 ```
 
-If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7...), then something is not right. Try following the instructions more carefully.
+If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7...), then something is not right. Go back to the top and start again, this time remembering to follow the instructions carefully.
 
 #### Max OSX users ####
 1. Launch a Terminal. You can do this by finding the Terminal app in your Applications folder, or by going up to the magnifying glass in the upper right corner of your screen and then searching for Terminal.
@@ -86,7 +89,7 @@ javac 1.8.0_191
 
 ```
 
-4. If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7..., java 10...), then something is not right. Email the instructor and the TAs.
+4. If you get an error message (e.g., "command java not found") or if the numbers are different (e.g., java 1.7..., java 10...), then something is not right. Go back to the top and start again, this time remembering to follow the instructions carefully.
 
 
 ### Part 6: Install and configure Atom
