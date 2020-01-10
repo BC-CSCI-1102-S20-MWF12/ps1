@@ -144,7 +144,7 @@ We will be using git and GitHub to distribute and collect problem sets. Using Gi
 
 5. Paste the URL from Part 1 in the first box, and the path to the **course folder** you created to Part 1 followed by the name of your respository in the second box. Here's what the box looks like on my computer. You can see that the repository URL ends in `ps1.git`, while the destination directory ends in `ps1`. Yours will look similar, except the repository URL will end in `ps1-yourusername.git`, and you should choose a directory on your computer that ends in `ps1-yourusername`.
 
-<img src="img/clone-window.png" width="700"  />
+<img src="img/clone-window2.png" width="700"  />
 
 6. Click the ``Clone`` button. This will copy your personal `ps1-yourusername` repository to your computer. If you get an error message in red letters, you are probably not following the directions, so try again!
 
