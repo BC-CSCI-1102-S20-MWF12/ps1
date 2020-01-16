@@ -1,4 +1,58 @@
-# Windows problems (For Mac problems, see below)
+[Click here for General Problems](#general-problems)
+[Click here for Windows Problems](#windows-problems)
+[Click here for Mac Problems](#mac-problems)
+
+# <a name="general-problems"></a>General problems
+
+## Problem: You get an error message when trying to clone in Atom
+Try using git on the command lines as follows. 
+
+1. `Packages -> platform-ide-terminal -> New Terminal`
+
+2. In the terminal that pops up, type `pwd`. This will tell you what directory (folder) you are in. 
+
+3. You want to be in the directory (folder) where you want to keep your problem sets, so you need to find out the **path** to that directory. These website will tell you several ways to do this in [Mac OS](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/) and in [Windows](https://www.thewindowsclub.com/path-copy-copy-lets-you-copy-file-paths). On my Mac, the path to where I keep problem sets for this class is `/Users/emilypx/Desktop/CSCI-1102-S20/ProblemSets`.
+
+4. Once you know the path to the directory where you want to keep your problem sets, you can navigate to that directory with the `cd` command in the terminal, like this:
+
+``cd /Users/emilypx/Desktop/CSCI-1102-S20/ProblemSets``
+
+5. Now that you are in the right place, you can use git. Go copy the url for your repository, as you should already know how to do. Then in the terminal, type `git clone` followed by that URL, like this:
+
+``git clone https://github.com/BC-CSCI-1102-S20-MWF12/ps1-yourgithubusername.git``
+
+6. You'll most likely be asked to enter your GitHub username and password, and you'll have a clone of your repository. You can then open that folder in Atom, and you'll be ready to go.
+
+## Problem: ``javac: file not found:``
+1. First check to make sure you spelled the name of your `.java` file correctly.
+
+2. If it's correct, the you are probably in the wrong directory in your terminal. You want to be in the `src` directory of your problem set repository. To get to the correct directory, first try typing `cd src` in the terminal, then try compiling again. If you don't get an error message, you are all set.
+
+3. If you continued to get a `file not found` error, follow steps 3 and 4 above to navigate to the correct directory (i.e., the `src` directory of your ps1 folder), then try compiling again.
+
+## Problem: ``Error: Could not find or load main class``
+1. First check to make sure you typed the command correctly: `java HelloWorld`. 
+
+2. If it's correct, the you are probably in the wrong directory in your terminal. You want to be in the `src` directory of your problem set repository. To get to the correct directory, first try typing `cd src` in the terminal, then try compiling again. If you don't get an error message, you are all set.
+
+3. If you continued to get a `Could not find or load main class` error, follow steps 3 and 4 above to navigate to the correct directory (i.e., the `src` directory of your ps1 folder), then try running again.
+
+## Problem: You get an error message when trying to push in Atom
+You staged your changes and committed your changes, but you get an error when you click "Push". Try using git on the command lines as follows. 
+
+1. You already have compiled and run your program, so you already have a terminal open to the right place. If you don't, then you'll need to open a new platform-ide-terminal and navigate to your repo. These websites will tell you several ways to find the path to a directory in [Mac OS](https://www.switchingtomac.com/tutorials/osx/5-ways-to-reveal-the-path-of-a-file-on-macos/) and in [Windows](https://www.thewindowsclub.com/path-copy-copy-lets-you-copy-file-paths).
+
+4. Once you know the path to the directory where you want to keep your problem sets, you can navigate to that directory with the `cd` command in the terminal
+
+``cd /The/Path/To/Your/Repo``
+
+5. Now that you are in the right place, you can use git. Type `git push` in the terminal:
+
+``git push``
+
+6. You might be asked to enter your GitHub username and password, and you'll have a clone of your repository. You can then log into GitHub on the web in a browser to make sure that your changes were pushed correctly.
+
+# <a name="windows-problems"></a>Windows problems (For Mac problems, see below)
 
 ## Problem: " 'javac' is not recognized as an internal or external command " (*new and improved directions!*)
 
@@ -52,7 +106,7 @@ If steps 4, 5, or 6 did not work, just use the [GitHub Desktop app](https://desk
 
 ---
 
-# Mac OSX Problems
+# <a name="mac-problems"></a>Mac OSX Problems
 ## Problem: "unable to push, error 403"
 This usually means that your credentials have not been entered or are incorrect. Here's one possible way to try to deal with this:
 
@@ -77,7 +131,7 @@ If this does not help, just use the [GitHub Desktop app](https://desktop.github.
 
 ## Problem: "unable to find remote helper for https"
 
-The issue is that there is a missing dependency for git that arose in a recent OSX update. If you got a lot of chat from your computer about Xcode or developer tools, it was probably your operating system trying to get that missing dependency for you. Here are some possible solutions. (Remember to quit Atom before trying anything.) Here's a way to try to deal with this:
+The issue is often that there is a missing dependency for git that arose in a recent OSX update. If you got a lot of chat from your computer about Xcode or developer tools, it was probably your operating system trying to get that missing dependency for you. Here are some possible solutions. (Remember to quit Atom before trying anything.) Here's a way to try to deal with this:
 
 1. open a Terminal, and type the following:
 
