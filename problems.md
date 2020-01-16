@@ -1,5 +1,7 @@
 [Click here for General Problems](#general-problems)
+
 [Click here for Windows Problems](#windows-problems)
+
 [Click here for Mac Problems](#mac-problems)
 
 # <a name="general-problems"></a>General problems
