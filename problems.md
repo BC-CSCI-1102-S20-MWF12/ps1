@@ -7,7 +7,7 @@
 # <a name="general-problems"></a>General problems
 
 ## Problem: You get an error message when trying to clone in Atom
-Try using git on the command lines as follows. 
+Try using git on the command line as follows. 
 
 1. `Packages -> platform-ide-terminal -> New Terminal`
 
